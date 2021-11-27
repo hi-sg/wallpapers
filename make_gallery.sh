@@ -8,7 +8,6 @@
 #
 # Uses imagemagick's `convert`, so make sure that's installed.
 
-rm -rf papes/.DS_Store
 rm -rf thumbnails
 mkdir thumbnails
 
@@ -16,9 +15,9 @@ url_root="https://raw.githubusercontent.com/worthyox/wallpapers/master"
 
 echo "# Worthyox's Wallpaper Collection" >README.md
 echo "" >>README.md
-echo "I have collected these wallpapers over a number of years. This is my entire wallpaper directory for those that want/need them. Created with a slightly modified version of [make_gallery.sh script](https://github.com/jonascarpay/Wallpapers/blob/master/make_gallery.sh) by Jonas Carpay." >>README.md
+echo "I have collected these wallpapers over a number of years. This is my entire wallpaper directory for those that want/need them. Created with a slightly modified version of [make_gallery.sh](https://github.com/jonascarpay/Wallpapers/blob/master/make_gallery.sh) script by Jonas Carpay." >>README.md
 echo "## Where did I get these?" >>README.md
-echo "I find wallpapers in a number of different locations but good places to check out include Imgur and /wg/. Some of the wallpapers are from other people's wallpaper repos like [Jonas Carpay](https://github.com/jonascarpay/Wallpapers), [MAKC](https://github.com/makccr/wallpapers), [Chris@Machine](https://github.com/ChristianChiarulli/wallpapers), [Gavin Freeborn](https://github.com/Gavinok/wallpapers), and [DT](https://gitlab.com/dwt1/wallpapers)." >>README.md
+echo "I find wallpapers in a number of different locations but good places to check out include [Imgur](https://imgur.com/) and [/wg/](https://boards.4chan.org/wg/). Some of the wallpapers are from other people's wallpaper repos like [Jonas Carpay](https://github.com/jonascarpay/Wallpapers), [MAKC](https://github.com/makccr/wallpapers), [Chris@Machine](https://github.com/ChristianChiarulli/wallpapers), [Gavin Freeborn](https://github.com/Gavinok/wallpapers), and [DT](https://gitlab.com/dwt1/wallpapers)." >>README.md
 echo "## Ownership" >>README.md
 echo "Since I got these mostly from sites like [Imgur](https://imgur.com/), [/wg/](https://boards.4chan.org/wg/), and [pixiv](https://www.pixiv.net/en/), I have no way of knowing if there is a copyright on these images. If you find an image hosted in this repository that is yours and of limited use, please let me know and I will remove it." >>README.md
 echo "" >>README.md
