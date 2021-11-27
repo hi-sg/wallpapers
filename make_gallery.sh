@@ -9,6 +9,7 @@
 # Uses imagemagick's `convert`, so make sure that's installed.
 # On Nix, nix-shell -p imagemagick --run ./make_gallery.sh
 
+rm -rf papes/.DS_Store
 rm -rf thumbnails
 mkdir thumbnails
 
