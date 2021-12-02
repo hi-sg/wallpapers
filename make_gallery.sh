@@ -11,7 +11,7 @@
 rm -rf thumbnails
 mkdir thumbnails
 
-url_root="https://raw.githubusercontent.com/hi-sg/wallpapers/master"
+url_root="https://raw.githubusercontent.com/hghann/wallpapers/master"
 
 echo "# Steve's Wallpaper Collection" >README.md
 echo "" >>README.md
