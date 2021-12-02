@@ -1,4 +1,4 @@
-# Worthyox's Wallpaper Collection
+# Steve's Wallpaper Collection
 
 I have collected these wallpapers over a number of years. This is my entire wallpaper directory for those that want/need them. Created with a slightly modified version of [make_gallery.sh](https://github.com/jonascarpay/Wallpapers/blob/master/make_gallery.sh) script by Jonas Carpay.
 ## Where did I get these?
