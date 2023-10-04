@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# set -e
+set -e
 
 # Usage: ./make_gallery.sh
 #
@@ -7,6 +7,7 @@
 # "thumbnails/" subdirectory.
 #
 # Uses imagemagick's `convert`, so make sure that's installed.
+# On Nix, nix-shell -p imagemagick --run ./make_gallery.sh
 
 rm -rf thumbnails
 mkdir thumbnails
